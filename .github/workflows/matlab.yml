@@ -12,9 +12,9 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set up MATLAB
-      uses: mathworks/setup-matlab@v1
+      uses: matlab-actions/setup-matlab@v1
       with:
-        matlab-version: R2021a
+        matlab-version: R2022a
 
     - name: Run MATLAB script
       run: |
